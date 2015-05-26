@@ -15,6 +15,6 @@ which gives you apache2 in an 9mb images instead of 325mb which is taken mostly 
 ### Server configuration
 Build a Dockerfile with something similar:
 
-        FROM eeacms/httpd
+        FROM eeacms/tinyhttpd
         
         ADD your-file.conf /etc/httpd/conf/httpd.conf
